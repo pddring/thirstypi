@@ -1,5 +1,4 @@
 import time
-import gpiozero
 from RelayController import *
 print("Testing relays")
 RELAY_PINS = [14, 15, 18, 23]
