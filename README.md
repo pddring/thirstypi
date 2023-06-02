@@ -27,6 +27,17 @@ sudo apt-get install python3-pil
 sudo apt-get install python3-numpy
 ```
 
+Hmm. This is a deadend - my screen has broken. I'll come back to this later.
 
+- Relay
+I have a 4 relay module a bit like this: https://www.amazon.co.uk/ELEGOO-Optocoupler-Compatible-Official-Raspberry/dp/B06XK6HCQC
+
+|Relay pins|Pi pin name|Pi pin number|
+|----------|-----------|-------------|
+|GND       |GND        |6            |
+|IN1       |GPIO14     |8            |
+|IN2       |GPIO15     |10           |
+|IN3       |GPIO18     |12           |
+|IN4       |GPIO23     |16           |
 
 - Capacitive moisture sensor
