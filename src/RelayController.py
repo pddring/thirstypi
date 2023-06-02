@@ -1,7 +1,7 @@
 class RelayController: 
   def __init__(self, pins=[14, 15, 18, 23]):
     self.relays = []
-    for pin in RELAY_PINS:
+    for pin in pins:
       self.relays.append(gpiozero.OutputDevice(pin, active_high=True, initial_value=True))
 
   def on(self, channel):
