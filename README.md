@@ -18,6 +18,7 @@ Install pip3:
 
 Install the python RGB Display library:
 ```pip3 install adafruit-circuitpython-rgb-display
-pip3 install --upgrade --force-reinstall spidev```
+pip3 install --upgrade --force-reinstall spidev
+```
 
 - Capacitive moisture sensor
