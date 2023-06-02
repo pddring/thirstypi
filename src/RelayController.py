@@ -1,3 +1,5 @@
+import gpiozero
+
 class RelayController: 
   def __init__(self, pins=[14, 15, 18, 23]):
     self.relays = []
