@@ -12,11 +12,11 @@ for pin in RELAY_PINS:
   
 for i in range(4):
   print("Relay", i, "off")
-  relays[i].off()
+  relays[i].on()
   time.sleep(1)
         
   print("Relay", i, "on")
-  relays[i].on() # switch on
+  relays[i].off() # switch on
   time.sleep(1)
 
 print("done")
