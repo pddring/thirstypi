@@ -1,7 +1,7 @@
 import time
 import gpiozero
 print("Testing relays")
-RELAY_PINS = [8, 10, 12, 16]
+RELAY_PINS = [14, 15, 18, 23]
 
 # Triggered by the output pin going high: active_high=True
 # Initially off: initial_value=False
