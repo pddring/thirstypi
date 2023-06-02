@@ -8,12 +8,12 @@ RELAY_PINS = [14, 15, 18, 23]
 
 relays = []
 for pin in RELAY_PINS:
-  relays.append(gpiozero.OutputDevice(pin, active_high=True, initial_value=False))
+  relays.append(gpiozero.OutputDevice(pin, active_high=False, initial_value=False))
   
 print("Turning all relays off")
 for i in range(4):
   relays[i].off()
-  
+
 for i in range(4):
   print("Relay", i, "off")
   relays[i].off()
