@@ -15,7 +15,7 @@ for i in range(4):
   relays[i].off()
   time.sleep(1)
         
-  print("Relay, i, "on")
+  print("Relay", i, "on")
   relays[i].on() # switch on
   time.sleep(1)
 
