@@ -11,7 +11,7 @@ for pin in RELAY_PINS:
   relays.append(gpiozero.OutputDevice(pin, active_high=True, initial_value=False))
   
 for i in range(4):
-  print("Relay, i, "off")
+  print("Relay", i, "off")
   relays[i].off()
   time.sleep(1)
         
