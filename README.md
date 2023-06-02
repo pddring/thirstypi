@@ -41,3 +41,6 @@ I have a 4 relay module a bit like this: https://www.amazon.co.uk/ELEGOO-Optocou
 |IN4       |GPIO23     |16           |
 
 - Capacitive moisture sensor
+
+- Google Home automation
+Currently working through this: https://developers.google.com/assistant/sdk/guides/service/python/embed/config-dev-project-and-account
